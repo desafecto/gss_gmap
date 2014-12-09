@@ -1,4 +1,4 @@
 gss_gmap
 ========
 
-Just a trial using gmap.je library
+Just a trial using gmap.js library
