@@ -46,7 +46,7 @@
             });
             map.addMarker({ lat: lat, lng: lng});  // marcador en [lat, lng]
           },
-          error: function(error) { alert('Geolocalización falla: '+error.message); },
+          error: function(error) { alert('La geolocalización falla: '+error.message); },
           not_supported: function(){ alert("Su navegador no soporta geolocalización"); },
         });
       };
